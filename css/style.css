@@ -1,0 +1,57 @@
+html{
+    margin:0%;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+/*------GLOBAL CLASS--------*/
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+/*----X ----GLOBAL CLASS---X-----*/
+a{
+    text-decoration: none;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+/*------Navigation Bar---------*/
+.nav{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.nav .nav-brand a{
+    font-size:1.6rem;
+    padding: 1rem 0;
+}
+
+.nav .social{
+    padding: 1.4rem 0;
+}
+/*-----Navigation Bar-----x----*/
