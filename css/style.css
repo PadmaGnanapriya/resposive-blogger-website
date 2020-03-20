@@ -65,6 +65,16 @@ a{
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
+    font-family: var(--Abel);
+    font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: var(--whitle);
 }
 
 .nav .nav-brand a{
@@ -72,9 +82,18 @@ a{
     padding: 1rem 0;
     display: block;
     font-family: var(--Abel);
+    font-size:1.6rem;
 }
 
 .nav .social{
     padding: 1.4rem 0;
 }
 /*-----Navigation Bar-----x----*/
+
+/*------View port------*/
+@media only screen and(max-width:750px){
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+}
+/*------View port----x-----*/
