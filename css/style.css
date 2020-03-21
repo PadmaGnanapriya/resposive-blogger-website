@@ -32,6 +32,20 @@ a{
 ul{
     list-style-type: none;
 }
+
+h1{
+    font-family: var(--Lexend);
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: var(--Lexend);
+}
+
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
 /*----X ----GLOBAL CLASS---X-----*/
 a{
     text-decoration: none;
@@ -52,6 +66,7 @@ a{
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 
 .nav .nav-menu{
@@ -69,11 +84,15 @@ a{
     display:flex;
     justify-content: flex-end;
     padding: 1.7rem 0;
-}
+} 
 
 .nav .toggle-collapse .toggle-icons i{
     font-size: 1.4rem;
     color: var(--text-gray);
+}
+
+.collapse{
+    height: 30rem;
 }
 
 .nav .nav-items{
@@ -112,8 +131,8 @@ a{
 
 /*------View port------*/
 @media only screen and(max-width:750px){
-    .nav .nav-menu, .nav .nav-items{
-        flex-direction: column;
+    .nav .nav-menu, .nav .nav-items {
+        flex-direction: row;
     }
 
     .nav .toggle-collapse{
@@ -122,3 +141,34 @@ a{
 }
 
 /*------View port----x-----*/
+
+/*----------Main----------*/
+main .site-title{
+    background: url('../kandy.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--whitle);
+}
+
+main .site-title h1, h3{
+    margin: 3rem;t
+}
+
+main .site-title .btn{
+    margin:1.8rem;
+    background: var(--sky);
+}
+
+main .site-title .btn:hover{
+    background:transparent;
+    border: 1px soild var(--white);
+    color: var(--white);
+}
+/*----x----Main------x----*/
