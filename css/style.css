@@ -169,6 +169,16 @@ main .site-title .btn:hover{
     border:1px solid var(--white);
 }
 /*----x------site title-----x-----*/
+
+/*----------Blog Carousel--------*/
+main .blog{
+    background: url('../assets/22.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+/*-----x----Blog Carousel----x---*/
 /*-----x----main content----x----*/
 
 /*------Viewport less than or equal to 750px---*/
