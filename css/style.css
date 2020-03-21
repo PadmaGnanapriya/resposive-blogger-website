@@ -307,6 +307,23 @@ main .post-content .post-title a{
 /*-----x----Site Content----x----*/
 
 /*----------Sidebar-------------*/
+.site-content> .sidebar .category-list{
+    font-family: var(--Abel);
+}
+
+.site-content> .sidebar .category-list .list-items{
+    background: var(--sky);
+    padding: 0.4rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-content>.sidebar .category-list .list-items a{
+    color: black;
+}
 /*-----x----Sidebar-----x-------*/
 
 /*-----x----main content----x----*/
