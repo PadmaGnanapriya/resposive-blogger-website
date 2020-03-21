@@ -46,12 +46,36 @@ ul{
     background:white;
     padding:0 2rem;
     height:0rem;
-    min-height: 100vh;
+    min-height: 10vh;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 
 .nav-menu{
     justify-content:space-between;
+}
+
+.nav .toggle-collapse{
+    position: absolute;
+    top:0%;
+    width:90%;
+    cursor:pointer;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.nav .toggle-icons .toggle-icons i{
+    font-size: 1.4rem;
+    color:var(--text-gray)
+}
+
+.collapse{
+    height: 30rem;
 }
 
 .nav .nav-items{
@@ -88,5 +112,18 @@ ul{
 
 .nav .social i:hover{
     color:#a1c4cf;
+    transform: scale(1.2);
 }
 /*-----x----navbar---x---*/
+
+/*------Viewport less than or equal to 750px---*/
+@media only screen and (max-width:750px){
+    .nav .nav-menu, .nav .nav-items{
+        flex-direction: column;
+    }
+    .nav .toggle-collapse{
+        display: initial;
+    }
+    
+}
+/*--x---Viewport less than or equal to 750px--x--*/
