@@ -8,6 +8,13 @@ $(document).ready(function(){
         $nav.toggleClass('collapse');
     })
 
-    $('.owl-carousel').owlCarousel();
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        dots:false,
+        nav:true,
+        navtext:[$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
+    });
     
 }); 
