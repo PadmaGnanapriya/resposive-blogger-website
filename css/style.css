@@ -17,7 +17,7 @@ html, body{
     --midnight:#104f55;
 
     /*gradient color */
-    --sky:linear-gradient(120deg,#a1c4fd 0%,#c2e9fb 100%)
+    --sky:linear-gradient(120deg,#a1c4fd 0%,#c2e9fb 100%);
     /* theme font-family */
     --white:#ffffff;
     --Abel:'Abel',cursive;
@@ -61,6 +61,14 @@ button.btn{
     font-size: 1rem;
     font-family: var(--Anton);
     cursor: pointer;
+}
+
+span{
+    font-family: var(--Abel);
+}
+
+.container{
+    margin: 0 5vw;
 }
 /*--x---Global class--x--*/
 
@@ -177,6 +185,34 @@ main .blog{
     background-position: right;
     height: 100vh;
     width: 100%;
+}
+
+main .blog .blog-post{
+    padding-top:6rem;
+}
+
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    background-color: greenyellow;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.4);
+}
+
+main .blog-content .blog-title{
+    padding: 2 rem 0;
+}
+
+main .blog-content .btn-blog{
+    padding: .7rem 2rem;
+    background: var(--sky);
+    margin:5rem;
+}
+
+main .blog-content span{
+    display: block;
 }
 /*-----x----Blog Carousel----x---*/
 /*-----x----main content----x----*/
