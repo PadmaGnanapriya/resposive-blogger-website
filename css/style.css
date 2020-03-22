@@ -436,6 +436,30 @@ main .post-content .post-title a{
     color:var(--white);
     padding: 0 .4rem;
 }
+
+.footer .rights{
+    justify-content: center;
+    font-family: var(--Josefin);
+}
+
+.footer .rights h4 a{
+    color: var(--white);
+}
+
+.footer .move-up{
+    position: absolute;
+    right: 6%;
+    top:50%
+}
+
+.footer .move-up span{
+    color: var(--midnight);
+}
+
+.footer .move-up span:hover{
+    color: var(--white);
+    cursor: pointer;
+}
 /*-----x-----Footer----x----*/
 
 /*------Viewport less than or equal to 750px---*/
