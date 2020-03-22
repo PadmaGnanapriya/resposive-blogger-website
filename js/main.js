@@ -1,3 +1,5 @@
+const resposive=
+
 $(document).ready(function(){
 
     $nav=$('.nav');
@@ -14,7 +16,8 @@ $(document).ready(function(){
         autoplayTimeout:2000,
         dots:false,
         nav:true,
-        navtext:[$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
+        navtext:[$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
+        resposive:resposive
     });
 
     //click to scroll top
