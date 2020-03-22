@@ -382,6 +382,10 @@ main .post-content .post-title a{
 
 /*-----x----main content----x----*/
 
+/*-----------Footer---------*/
+
+/*-----x-----Footer----x----*/
+
 /*------Viewport less than or equal to 750px---*/
 @media only screen and (max-width:750px){
     .nav .nav-menu, .nav .nav-items{
