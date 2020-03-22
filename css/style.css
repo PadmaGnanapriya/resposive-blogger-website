@@ -383,7 +383,59 @@ main .post-content .post-title a{
 /*-----x----main content----x----*/
 
 /*-----------Footer---------*/
+.footer{
+    height:100%;
+    background:var(--bg-color);
+    position: relative;
+}
 
+.footer .container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+
+.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem 0.9rem;
+}
+
+.footer .container h2{
+    color: white;
+}
+
+.footer .newsletter .form-element{
+    background: #0f0f0f;
+    display: inline-block;
+}
+
+.footer .newsletter .form-element input{
+    padding: .5rem.7rem;
+    border:none;
+    background: transparent;
+    color: white;
+    font-family: var(--Josefin);
+    font-size: 1rem;
+    width: 74%;
+}
+
+.footer .newsletter .form-element span{
+    background: var(--sky);
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+
+.footer .instagram div >img{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin:.3rem;
+}
+
+.footer .follow div i{
+    color:var(--white);
+    padding: 0 .4rem;
+}
 /*-----x-----Footer----x----*/
 
 /*------Viewport less than or equal to 750px---*/
